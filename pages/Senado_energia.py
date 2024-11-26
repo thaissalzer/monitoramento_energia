@@ -4,6 +4,18 @@ from datetime import datetime, timedelta
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(layout = 'wide')
+#inserindo o titulo
+st.title('Monitoramento das Proposições Legislativas do Senado')
+st.title('Tema: **Fontes renováveis e eletricidade**')
+
+
+st.text("São acompanhados as proposições")
+st.text("que apresentaram alguma tramitação nos ultimos 7 dias")
+
+st.text('Os temas em monitoramento são: "energia", "eletr", "CDE", "geração", "renováve", "transmissão", "resíduo", "transição energética"')
+
+
 # Palavras-chave a serem buscadas na ementa
 keywords = ["energia", "eletr", "CDE", "geração", "renováve", "transmissão", "resíduo", "transição energética"]
 
