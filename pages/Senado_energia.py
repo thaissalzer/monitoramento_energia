@@ -2,6 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import pandas as pd
+import streamlit as st
 
 # Palavras-chave a serem buscadas na ementa
 keywords = ["energia", "eletr", "CDE", "geração", "renováve", "transmissão", "resíduo", "transição energética"]
